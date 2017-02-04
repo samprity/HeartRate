@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HeartRateApp</string>
+    <string name="heartrate">heartRate</string>
+    <string name="monitor">Monitor</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
