@@ -10,24 +10,34 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.sampr.heartrateapp.MainActivity">
 
+    <Button
+        android:id="@+id/sync"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp"
+        android:onClick="submitButtonHandler"
+        android:text="Sync_Priority3" />
+
     <ImageView
         android:id="@+id/heartImage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/heart"
-        android:contentDescription="@string/heartrate"
-        android:clickable="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="29dp" />
+        android:layout_below="@+id/sync"
+        android:clickable="true"
+        android:contentDescription="@string/heartrate"
+        android:src="@drawable/heart" />
 
     <Button
-        android:text="Monitor"
+        android:id="@+id/monitor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/monitor"
-        android:layout_alignTop="@+id/heartImage"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
         android:onClick="monitorButtonHandler"
-        android:layout_centerHorizontal="true" />
+        android:text="Monitor_Priority2" />
 
 </RelativeLayout>
